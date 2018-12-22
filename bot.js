@@ -3268,12 +3268,5 @@ client.on('guildMemberAdd', member => {
   }); 
 });
 
-
-
-
-
-
-
 	
-	
-client.login('NTI2MDI3NDc2MTI0NTY1NTE3.Dv_P_w.cy4cxxvOWEibbnOl0VaLGCUKgUc');
+client.login(process.env.BOT_TOKEN);
