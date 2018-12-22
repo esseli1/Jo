@@ -158,12 +158,12 @@ client.on("message", async message => {
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
-            برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
-            معلومات عن السيرفر : ${prefix}server
-            برودكاست للأونلاين فقط : ${prefix}bco
-            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر الدعم الفني : https://discord.gg/YEXcDXt 
+            برودكاست عادي : .{prefix}bc
+            دعوة البوت لسيرفرك : .{prefix}invite
+            معلومات عن السيرفر : .{prefix}server
+            برودكاست للأونلاين فقط : .{prefix}bco
+            يعرض لك عدد المتبندين من سيرفرك : .{prefix}banned
+            رابط سيرفر الدعم الفني : https://discord.gg/hAUYWvh 
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
@@ -172,5 +172,4 @@ client.on("message", async message => {
 // DONE BY MOORZ .
 // CODES - COPYRIGHT
 
-
-client.login("process.env.BOT_TOKEN");
+client.login(process.env.BOT_TOKEN);
